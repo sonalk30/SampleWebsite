@@ -1,0 +1,343 @@
+body {
+  font-family: Montserrat-Medium;
+  font-variant: inherit;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+}
+
+#titleSection {
+    background-position: top;
+    height: 100px;
+    min-height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+#navbar {
+  padding: 15px 50px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#logo {
+  height: 70px;
+}
+
+#megaContainer {
+    width: 70vw;
+}
+
+div, li {
+    outline: 0;
+}
+
+div {
+    display: block;
+}
+
+
+dl, ol, p, ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+li {
+  display: list-item;
+  text-align: inherit;
+  padding: 10px;
+}
+
+#titleSection .content-box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    margin: 0 auto;
+    transform: translate(-50%,-50%);
+  }
+
+#titleSection .content-box .text {
+    line-height: 45px;
+    font-size: 35px;
+    text-align: center;
+    color: #fff;
+    font-family: Montserrat-Bold;
+}
+
+#titleSection .content-box .pText {
+    margin: 30px auto;
+    width: 700px;
+    height: 15px;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    bottom: 25px;
+    color: #fff;
+    font-family: montserrat-semibold;
+}
+
+#titleSection .content-box .search input {
+    width: 580px;
+    padding: 0 70px;
+    height: 50px;
+    line-height: 80px;
+    margin-top: 25px;
+    border: 0;
+    border-radius: 5px;
+}
+
+#titleSection .content-box .search .searchIcon {
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 42px;
+    width: 23px;
+}
+
+#titleSection .content-box .search .arrow {
+    position: absolute;
+    margin-left: -40px;
+    margin-top: 42px;
+    width: 23px;
+}
+
+#titleSection .company {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#titleSection .company ul li img{
+    margin: 20px;
+    height: 32px;
+}
+
+#testimonials {
+    padding: 57px 0 0;
+    overflow: hidden;
+}
+
+.heading {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+.container-fluid {
+  padding: 2% 15%;
+  width: 100%;
+}
+
+
+.testimonial-text {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+}
+
+.name {
+  margin: 10px;
+  font-size: 20px;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+
+.client-logo {
+  height: 80px;
+  width: auto;
+}
+
+.description {
+  font-size: 20px;
+    margin: 25px 25px 60px;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
+
+.detail {
+  text-align: center;
+}
+#mentor {
+  padding: 100px;
+}
+
+#mentor .detail p {
+    font-style: normal;
+    font-size: 20px;
+    line-height: 153.6%;
+    color: #666;
+    margin: 25px 0 60px;
+}
+
+#mentor .img{
+    position: relative;
+    /* width: 312px; */
+    height: 285px;
+    background: linear-gradient(180deg,rgba(0,0,0,0) 63.23%,#000 105.19%);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.align-box {
+    background: #fff;
+    border: 1px solid #eaeaea;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 20px;
+    height: 460px;
+}
+
+.jobDescription {
+  float: left;
+}
+
+.card-title {
+  {
+   font-family: "Montserrat";
+   font-size: 24px;
+   line-height: 37px;
+   color: #333;
+   margin: 20px 0;
+   text-transform: capitalize;
+}
+}
+
+.title {
+  font-family: "Montserrat";
+  font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+align-items: center;
+color: #666;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+}
+
+.companyIcon {
+    height: 50px;
+    max-width: 90%;
+}
+
+
+h1 {
+  font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: black;
+}
+
+h4 {
+    display: block;
+    font-weight: bold;
+    color: orange;
+    margin-top: 10px;
+}
+
+footer {
+    background: #002541;
+    padding: 0 150px 50px;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.about {
+    padding: 12px 0;
+    margin: 0;
+}
+
+footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 20px;
+}
+
+footer .about li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+hr {
+  width: 100%;
+    height: 1px;
+    opacity: .1;
+    border: 1px solid #fff;
+}
+
+.ft {
+  margin-top: 3rem;
+}
+
+footer .follow {
+  margin: 0 0 40px;
+  float: left;
+}
+
+footer .hT {
+  text-align: left;
+  font-family: Montserrat-Medium;
+    font-size: 16px;
+    line-height: 17px;
+    color: #bababa;
+    margin-bottom: 20px;
+}
+
+footer .socialIcons li {
+  margin-right: 20px;
+    display: inline-block;
+    list-style-type: none;
+}
+
+footer p {
+  text-align: left;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(186,186,186,.74);
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+footer .col-4 .col-4 {
+    flex: 0 0 33.33%;
+    max-width: 33%;
+}
+
+.in {
+    margin: 0 0 40px;
+}
+
+footer .col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
